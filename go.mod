@@ -1,4 +1,4 @@
-module githum.com/AlyabevStepan/todo-api
+module github.com/AlyabevStepan/todo-api
 
 go 1.20
 

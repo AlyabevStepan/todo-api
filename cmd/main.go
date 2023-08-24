@@ -9,7 +9,7 @@ import (
 func main() {
 	handlers := new(handler.Handler)
 	srv := new(todo.Server)
-	if err := srv.RUN("8000", handlers.InitRoutes()); err != nil {
+	if err := srv.Run("8000", handlers.InitRoutes()); err != nil {
 		log.Fatalf("%s", err.Error())
 	}
 }
